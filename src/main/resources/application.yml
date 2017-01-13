@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driverClassName: org.apache.derby.jdbc.EmbeddedDriver
+    url: jdbc:derby:memory:demo;create=true
+    username: APP
+    password: bragasdeesparto
+  jpa:
+    database-platform :  org.hibernate.dialect.DerbyDialect
+    hibernate:
+        ddl-auto: update
+        naming_strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    show-sql: true  

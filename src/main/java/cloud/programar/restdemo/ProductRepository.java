@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package cloud.programar.microservicedemo;
+package cloud.programar.restdemo;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

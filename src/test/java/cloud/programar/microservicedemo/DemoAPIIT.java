@@ -1,5 +1,6 @@
 package cloud.programar.microservicedemo;
 
+import cloud.programar.restdemo.Product;
 import java.math.BigDecimal;
 import java.util.List;
 import static org.junit.Assert.assertEquals;
